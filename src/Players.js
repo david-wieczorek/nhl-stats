@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
 
 class Players extends Component {
-  static defaultProps = {
-    players: []
-  };
   render() {
     const { players } = this.props;
     const playersLength = players.length;

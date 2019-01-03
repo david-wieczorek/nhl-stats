@@ -5,8 +5,29 @@ import Players from './Players';
 class PlayersList extends Component {
   constructor(props) {
     super(props);
-    this.state = { datas: [], loading: true };
+    this.state = { datas: [], loading: true, sortDirection: 'descending' };
   }
+
+  orderByPasses = () => {
+    const playersOrderedByPasses = state =>
+      state.datas.sort((a, b) => b.assists - a.assists);
+
+    const playersOrderedByPassesss = state =>
+      state.datas.sort((a, b) => a.assists - b.assists);
+
+    if (this.state.sortDirection === 'descending') {
+      this.setState(state => ({
+        sortDirection: 'ascending',
+        datas: playersOrderedByPasses(state)
+      }));
+    } else {
+      this.setState(state => ({
+        sortDirection: 'descending',
+        datas: playersOrderedByPassesss(state)
+      }));
+    }
+  };
+
   componentDidMount() {
     axios
       .get('/stats/rest/skaters', {
@@ -36,6 +57,7 @@ class PlayersList extends Component {
         // always executed
       });
   }
+
   render() {
     const { datas, loading } = this.state;
     if (loading) {
@@ -43,6 +65,7 @@ class PlayersList extends Component {
     }
     return (
       <div>
+        <button onClick={this.orderByPasses}>Order by assists</button>
         <Players players={datas} />
       </div>
     );
