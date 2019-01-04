@@ -1,15 +1,15 @@
-import React, { Component } from 'react';
-import { connect } from 'react-redux';
+import React, {Component} from 'react';
+import {connect} from 'react-redux';
 
 class Home extends Component {
   render() {
-    const { simpleReducer } = this.props;
+    const {simpleReducer} = this.props;
     return <div>Home {simpleReducer.result}</div>;
   }
 }
 
 const mapStateToProps = state => ({
-  ...state
+  ...state,
 });
 
 export default connect(mapStateToProps)(Home);

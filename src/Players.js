@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 
 class Players extends Component {
   render() {
-    const { players } = this.props;
+    const {players} = this.props;
     const playersLength = players.length;
     return (
       <div>

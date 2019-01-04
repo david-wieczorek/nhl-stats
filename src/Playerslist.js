@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import axios from 'axios';
 import Players from './Players';
 
 class PlayersList extends Component {
   constructor(props) {
     super(props);
-    this.state = { datas: [], loading: true, sortDirection: 'descending' };
+    this.state = {datas: [], loading: true, sortDirection: 'descending'};
   }
 
   orderByPasses = () => {
@@ -18,12 +18,12 @@ class PlayersList extends Component {
     if (this.state.sortDirection === 'descending') {
       this.setState(state => ({
         sortDirection: 'ascending',
-        datas: playersOrderedByPasses(state)
+        datas: playersOrderedByPasses(state),
       }));
     } else {
       this.setState(state => ({
         sortDirection: 'descending',
-        datas: playersOrderedByPassesss(state)
+        datas: playersOrderedByPassesss(state),
       }));
     }
   };
@@ -34,7 +34,7 @@ class PlayersList extends Component {
       .then(response => {
         this.setState({
           datas: response.data,
-          loading: false
+          loading: false,
         });
       })
       .catch(error => {
@@ -46,7 +46,7 @@ class PlayersList extends Component {
   }
 
   render() {
-    const { datas, loading } = this.state;
+    const {datas, loading} = this.state;
     if (loading) {
       return <div>Loading</div>;
     }
