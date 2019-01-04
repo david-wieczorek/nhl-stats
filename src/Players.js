@@ -9,7 +9,7 @@ class Players extends Component {
         <h2>Number of players: {playersLength}</h2>
         {players.map(data => {
           return (
-            <div key={data.playerId}>
+            <div key={data.id}>
               {data.playerName} - goals: {data.goals} - assists: {data.assists}
             </div>
           );
