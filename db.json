@@ -1,8 +1,1786 @@
 {
-  "posts": [{ "id": 1, "title": "json-server", "author": "typicode" }],
-  "playerslist": [
-    { "id": 1, "assists": 30, "goals": 1, "playerName": "David Wieczorek" },
-    { "id": 2, "assists": 40, "goals": 10, "playerName": "Yannick Wieczorek" }
-  ],
-  "profile": { "name": "typicode" }
+    "playerslist": [{
+            "_id": "5c2fdec76e737dcce3fffddf",
+            "guid": "1492d177-6bb2-4aa2-a961-708e150f0bef",
+            "isActive": false,
+            "picture": "http://placehold.it/32x32",
+            "age": 22,
+            "goals": 45,
+            "assists": 12,
+            "eyeColor": "blue",
+            "name": {
+                "first": "Lillian",
+                "last": "Stein"
+            },
+            "height": 195,
+            "weight": 85,
+            "team": "MAGNAFONE",
+            "stick": "right"
+        },
+        {
+            "_id": "5c2fdec7f2b003a797b9e4ae",
+            "guid": "0463ebb8-3113-44dc-849b-efe111ce3d57",
+            "isActive": true,
+            "picture": "http://placehold.it/32x32",
+            "age": 34,
+            "goals": 40,
+            "assists": 81,
+            "eyeColor": "brown",
+            "name": {
+                "first": "Meadows",
+                "last": "Wooten"
+            },
+            "height": 178,
+            "weight": 115,
+            "team": "EMTRAK",
+            "stick": "left"
+        },
+        {
+            "_id": "5c2fdec79d09ae1aec4261c8",
+            "guid": "4d07f4ce-88eb-4cb9-8530-dea3b61a437a",
+            "isActive": true,
+            "picture": "http://placehold.it/32x32",
+            "age": 34,
+            "goals": 37,
+            "assists": 26,
+            "eyeColor": "blue",
+            "name": {
+                "first": "Jocelyn",
+                "last": "Mays"
+            },
+            "height": 170,
+            "weight": 96,
+            "team": "CONFRENZY",
+            "stick": "right"
+        },
+        {
+            "_id": "5c2fdec7b952d9811aff0df6",
+            "guid": "08753f32-7f75-4caa-9f15-feef4ff3ce8a",
+            "isActive": true,
+            "picture": "http://placehold.it/32x32",
+            "age": 36,
+            "goals": 87,
+            "assists": 8,
+            "eyeColor": "blue",
+            "name": {
+                "first": "Dee",
+                "last": "Rhodes"
+            },
+            "height": 166,
+            "weight": 119,
+            "team": "PROVIDCO",
+            "stick": "right"
+        },
+        {
+            "_id": "5c2fdec75347ccf274698014",
+            "guid": "0b7ed71b-356e-4c61-ab72-fd7911f47188",
+            "isActive": true,
+            "picture": "http://placehold.it/32x32",
+            "age": 24,
+            "goals": 30,
+            "assists": 30,
+            "eyeColor": "blue",
+            "name": {
+                "first": "Terra",
+                "last": "Chavez"
+            },
+            "height": 160,
+            "weight": 72,
+            "team": "ENERSOL",
+            "stick": "left"
+        },
+        {
+            "_id": "5c2fdec796e79fb03324fe2a",
+            "guid": "8e6f686d-f9bd-49ce-af27-dfc8a8083d70",
+            "isActive": false,
+            "picture": "http://placehold.it/32x32",
+            "age": 30,
+            "goals": 64,
+            "assists": 29,
+            "eyeColor": "brown",
+            "name": {
+                "first": "Dolly",
+                "last": "Hooper"
+            },
+            "height": 178,
+            "weight": 132,
+            "team": "LUMBREX",
+            "stick": "right"
+        },
+        {
+            "_id": "5c2fdec714061605eb1da922",
+            "guid": "fced3278-621a-49b2-b3a7-9830bb61034c",
+            "isActive": false,
+            "picture": "http://placehold.it/32x32",
+            "age": 23,
+            "goals": 67,
+            "assists": 19,
+            "eyeColor": "green",
+            "name": {
+                "first": "Kaye",
+                "last": "Leon"
+            },
+            "height": 217,
+            "weight": 137,
+            "team": "BITENDREX",
+            "stick": "right"
+        },
+        {
+            "_id": "5c2fdec700b2c86ddeef79f7",
+            "guid": "4066ceef-8542-4896-9a1d-688f2d9559f3",
+            "isActive": false,
+            "picture": "http://placehold.it/32x32",
+            "age": 22,
+            "goals": 98,
+            "assists": 33,
+            "eyeColor": "blue",
+            "name": {
+                "first": "Jewel",
+                "last": "Silva"
+            },
+            "height": 171,
+            "weight": 123,
+            "team": "FIBRODYNE",
+            "stick": "right"
+        },
+        {
+            "_id": "5c2fdec7e4a88e7ba4d12254",
+            "guid": "6cf15956-cae2-4980-b5b0-7ff5b92d2f15",
+            "isActive": false,
+            "picture": "http://placehold.it/32x32",
+            "age": 26,
+            "goals": 51,
+            "assists": 44,
+            "eyeColor": "brown",
+            "name": {
+                "first": "Cristina",
+                "last": "Kline"
+            },
+            "height": 181,
+            "weight": 87,
+            "team": "KIDGREASE",
+            "stick": "right"
+        },
+        {
+            "_id": "5c2fdec7239fe7f288fdefd6",
+            "guid": "dcb227c3-72f7-471b-b182-481eb831e0d5",
+            "isActive": true,
+            "picture": "http://placehold.it/32x32",
+            "age": 23,
+            "goals": 56,
+            "assists": 9,
+            "eyeColor": "green",
+            "name": {
+                "first": "Wilcox",
+                "last": "Harrington"
+            },
+            "height": 195,
+            "weight": 108,
+            "team": "CENTURIA",
+            "stick": "right"
+        },
+        {
+            "_id": "5c2fdec7e486a15dc6a36fe9",
+            "guid": "922a0e07-8af2-4200-b30c-0a183543fb8f",
+            "isActive": true,
+            "picture": "http://placehold.it/32x32",
+            "age": 29,
+            "goals": 86,
+            "assists": 64,
+            "eyeColor": "brown",
+            "name": {
+                "first": "Katharine",
+                "last": "Cohen"
+            },
+            "height": 171,
+            "weight": 74,
+            "team": "OCEANICA",
+            "stick": "left"
+        },
+        {
+            "_id": "5c2fdec762d5ddf42b5b2176",
+            "guid": "9ec26ed2-45f9-4d84-a0e9-08c8a7bea383",
+            "isActive": false,
+            "picture": "http://placehold.it/32x32",
+            "age": 27,
+            "goals": 97,
+            "assists": 90,
+            "eyeColor": "brown",
+            "name": {
+                "first": "Gay",
+                "last": "Adkins"
+            },
+            "height": 176,
+            "weight": 109,
+            "team": "PEARLESSA",
+            "stick": "left"
+        },
+        {
+            "_id": "5c2fdec7912941fdff52de60",
+            "guid": "51358f66-c2db-4638-bf4e-384ca9735bb1",
+            "isActive": true,
+            "picture": "http://placehold.it/32x32",
+            "age": 36,
+            "goals": 40,
+            "assists": 63,
+            "eyeColor": "brown",
+            "name": {
+                "first": "Roslyn",
+                "last": "Patel"
+            },
+            "height": 201,
+            "weight": 106,
+            "team": "IMMUNICS",
+            "stick": "right"
+        },
+        {
+            "_id": "5c2fdec7150667b9724e85a6",
+            "guid": "50f6ab43-17d1-4330-a8c7-f1b28d8aac43",
+            "isActive": true,
+            "picture": "http://placehold.it/32x32",
+            "age": 21,
+            "goals": 65,
+            "assists": 7,
+            "eyeColor": "blue",
+            "name": {
+                "first": "Velma",
+                "last": "Strickland"
+            },
+            "height": 197,
+            "weight": 122,
+            "team": "FUTURITY",
+            "stick": "left"
+        },
+        {
+            "_id": "5c2fdec7a9811edc2880cf4d",
+            "guid": "02c76b52-e3cf-4281-bf8d-97e6761d41f4",
+            "isActive": true,
+            "picture": "http://placehold.it/32x32",
+            "age": 33,
+            "goals": 92,
+            "assists": 64,
+            "eyeColor": "blue",
+            "name": {
+                "first": "Robbie",
+                "last": "Maxwell"
+            },
+            "height": 196,
+            "weight": 105,
+            "team": "UNIA",
+            "stick": "left"
+        },
+        {
+            "_id": "5c2fdec72a99f7803e13724c",
+            "guid": "9dcc1ec9-826b-473a-9e7d-9ebb3500a2c1",
+            "isActive": false,
+            "picture": "http://placehold.it/32x32",
+            "age": 29,
+            "goals": 75,
+            "assists": 55,
+            "eyeColor": "brown",
+            "name": {
+                "first": "Donovan",
+                "last": "Allen"
+            },
+            "height": 204,
+            "weight": 113,
+            "team": "EMTRAC",
+            "stick": "left"
+        },
+        {
+            "_id": "5c2fdec7f77422aae572219d",
+            "guid": "576902ea-c777-48b2-9c4e-5ef5756463bb",
+            "isActive": true,
+            "picture": "http://placehold.it/32x32",
+            "age": 36,
+            "goals": 85,
+            "assists": 5,
+            "eyeColor": "green",
+            "name": {
+                "first": "Marisa",
+                "last": "Klein"
+            },
+            "height": 220,
+            "weight": 126,
+            "team": "ZOINAGE",
+            "stick": "left"
+        },
+        {
+            "_id": "5c2fdec7f52a148563190086",
+            "guid": "9b77ce63-fc78-4f12-9f67-67ca38c2f08a",
+            "isActive": false,
+            "picture": "http://placehold.it/32x32",
+            "age": 37,
+            "goals": 74,
+            "assists": 74,
+            "eyeColor": "green",
+            "name": {
+                "first": "Christi",
+                "last": "Ortiz"
+            },
+            "height": 201,
+            "weight": 109,
+            "team": "VERTON",
+            "stick": "left"
+        },
+        {
+            "_id": "5c2fdec7c73c0612eeda66aa",
+            "guid": "43c6fcac-841c-478e-9e31-32cf6cba4a20",
+            "isActive": false,
+            "picture": "http://placehold.it/32x32",
+            "age": 33,
+            "goals": 62,
+            "assists": 6,
+            "eyeColor": "green",
+            "name": {
+                "first": "Bridgette",
+                "last": "Avery"
+            },
+            "height": 195,
+            "weight": 100,
+            "team": "ZENOLUX",
+            "stick": "right"
+        },
+        {
+            "_id": "5c2fdec7434f53d35abd89b3",
+            "guid": "0a94ea88-3a0b-4308-b287-c9b7da075c0c",
+            "isActive": true,
+            "picture": "http://placehold.it/32x32",
+            "age": 33,
+            "goals": 11,
+            "assists": 81,
+            "eyeColor": "brown",
+            "name": {
+                "first": "Trina",
+                "last": "Brock"
+            },
+            "height": 214,
+            "weight": 121,
+            "team": "ORBAXTER",
+            "stick": "left"
+        },
+        {
+            "_id": "5c2fdec78c65917a96d4a144",
+            "guid": "b8570bac-2be3-42e2-8140-873a947affbe",
+            "isActive": false,
+            "picture": "http://placehold.it/32x32",
+            "age": 24,
+            "goals": 69,
+            "assists": 79,
+            "eyeColor": "brown",
+            "name": {
+                "first": "Tyson",
+                "last": "Cunningham"
+            },
+            "height": 217,
+            "weight": 85,
+            "team": "CODAX",
+            "stick": "right"
+        },
+        {
+            "_id": "5c2fdec7d987e503a884c47d",
+            "guid": "34705ef2-b39b-409e-bf1b-d4d9cd2bb488",
+            "isActive": false,
+            "picture": "http://placehold.it/32x32",
+            "age": 28,
+            "goals": 60,
+            "assists": 21,
+            "eyeColor": "blue",
+            "name": {
+                "first": "Sheree",
+                "last": "Dominguez"
+            },
+            "height": 186,
+            "weight": 72,
+            "team": "EXERTA",
+            "stick": "left"
+        },
+        {
+            "_id": "5c2fdec7b03b5e365a8cf37a",
+            "guid": "06357a75-bb57-40d6-8738-68e293685cd3",
+            "isActive": false,
+            "picture": "http://placehold.it/32x32",
+            "age": 34,
+            "goals": 91,
+            "assists": 20,
+            "eyeColor": "blue",
+            "name": {
+                "first": "Howell",
+                "last": "Mills"
+            },
+            "height": 189,
+            "weight": 122,
+            "team": "APPLIDECK",
+            "stick": "left"
+        },
+        {
+            "_id": "5c2fdec7423842f6373f5128",
+            "guid": "ad0d7b62-72c7-4fcb-89b4-84b0e56b6606",
+            "isActive": false,
+            "picture": "http://placehold.it/32x32",
+            "age": 37,
+            "goals": 28,
+            "assists": 52,
+            "eyeColor": "green",
+            "name": {
+                "first": "Rivers",
+                "last": "Combs"
+            },
+            "height": 189,
+            "weight": 136,
+            "team": "TROPOLI",
+            "stick": "right"
+        },
+        {
+            "_id": "5c2fdec73cf1ddaa5839e95d",
+            "guid": "d1e39ad0-a6a8-489f-80e8-d0f9e056508f",
+            "isActive": false,
+            "picture": "http://placehold.it/32x32",
+            "age": 27,
+            "goals": 53,
+            "assists": 84,
+            "eyeColor": "brown",
+            "name": {
+                "first": "Mayra",
+                "last": "Fowler"
+            },
+            "height": 170,
+            "weight": 114,
+            "team": "JAMNATION",
+            "stick": "right"
+        },
+        {
+            "_id": "5c2fdec7b960b351bc41f5fe",
+            "guid": "c9eb3a6e-3bb2-4f80-be51-b1530b9ca1a5",
+            "isActive": true,
+            "picture": "http://placehold.it/32x32",
+            "age": 25,
+            "goals": 18,
+            "assists": 73,
+            "eyeColor": "green",
+            "name": {
+                "first": "Lila",
+                "last": "Casey"
+            },
+            "height": 209,
+            "weight": 91,
+            "team": "QUORDATE",
+            "stick": "right"
+        },
+        {
+            "_id": "5c2fdec70837fd8b382c7ecc",
+            "guid": "cec44d6e-90d5-41c8-a1c3-3c63e4d9253d",
+            "isActive": true,
+            "picture": "http://placehold.it/32x32",
+            "age": 27,
+            "goals": 98,
+            "assists": 98,
+            "eyeColor": "brown",
+            "name": {
+                "first": "Lilia",
+                "last": "Hughes"
+            },
+            "height": 164,
+            "weight": 88,
+            "team": "YOGASM",
+            "stick": "left"
+        },
+        {
+            "_id": "5c2fdec74b5bc104065c7b1d",
+            "guid": "d7c715e7-3456-449f-bdc6-bbbf0c1d112c",
+            "isActive": true,
+            "picture": "http://placehold.it/32x32",
+            "age": 37,
+            "goals": 25,
+            "assists": 47,
+            "eyeColor": "green",
+            "name": {
+                "first": "Blackwell",
+                "last": "Nolan"
+            },
+            "height": 216,
+            "weight": 117,
+            "team": "AQUAZURE",
+            "stick": "left"
+        },
+        {
+            "_id": "5c2fdec748e19a8fc33c447c",
+            "guid": "aeac4af2-bc16-499d-a0e5-160d0e4529aa",
+            "isActive": false,
+            "picture": "http://placehold.it/32x32",
+            "age": 23,
+            "goals": 37,
+            "assists": 43,
+            "eyeColor": "blue",
+            "name": {
+                "first": "Mathews",
+                "last": "Bradshaw"
+            },
+            "height": 199,
+            "weight": 119,
+            "team": "EXTRO",
+            "stick": "left"
+        },
+        {
+            "_id": "5c2fdec7d43c2b90fc8bffb9",
+            "guid": "3dcfecd1-876c-4a0a-8808-f0bdfbe49f1f",
+            "isActive": true,
+            "picture": "http://placehold.it/32x32",
+            "age": 28,
+            "goals": 95,
+            "assists": 6,
+            "eyeColor": "blue",
+            "name": {
+                "first": "Maryann",
+                "last": "Barrera"
+            },
+            "height": 170,
+            "weight": 99,
+            "team": "COMBOT",
+            "stick": "left"
+        },
+        {
+            "_id": "5c2fdec7e12554d0e66f53ce",
+            "guid": "79644769-e342-4b7d-b3d5-4d2ae472b663",
+            "isActive": true,
+            "picture": "http://placehold.it/32x32",
+            "age": 36,
+            "goals": 85,
+            "assists": 44,
+            "eyeColor": "blue",
+            "name": {
+                "first": "Lynnette",
+                "last": "Hinton"
+            },
+            "height": 212,
+            "weight": 80,
+            "team": "ETERNIS",
+            "stick": "left"
+        },
+        {
+            "_id": "5c2fdec7d3a8c065cbfdca4a",
+            "guid": "de74be9e-2e38-483b-9538-5fd34173f322",
+            "isActive": false,
+            "picture": "http://placehold.it/32x32",
+            "age": 23,
+            "goals": 18,
+            "assists": 20,
+            "eyeColor": "blue",
+            "name": {
+                "first": "Jeannine",
+                "last": "Johnston"
+            },
+            "height": 217,
+            "weight": 140,
+            "team": "ECRATIC",
+            "stick": "left"
+        },
+        {
+            "_id": "5c2fdec76e986e544e896034",
+            "guid": "f7ca6481-df2f-477a-93d3-0e75d00c4b25",
+            "isActive": false,
+            "picture": "http://placehold.it/32x32",
+            "age": 27,
+            "goals": 29,
+            "assists": 37,
+            "eyeColor": "blue",
+            "name": {
+                "first": "Kirsten",
+                "last": "Gilbert"
+            },
+            "height": 172,
+            "weight": 91,
+            "team": "SLAX",
+            "stick": "left"
+        },
+        {
+            "_id": "5c2fdec72b2c5e1c3c472e24",
+            "guid": "e68a336e-dbfb-4714-9f32-154033ff7f9f",
+            "isActive": false,
+            "picture": "http://placehold.it/32x32",
+            "age": 24,
+            "goals": 63,
+            "assists": 44,
+            "eyeColor": "brown",
+            "name": {
+                "first": "Gonzalez",
+                "last": "Pitts"
+            },
+            "height": 209,
+            "weight": 89,
+            "team": "REALMO",
+            "stick": "right"
+        },
+        {
+            "_id": "5c2fdec713e6df3405babb1c",
+            "guid": "12ad478c-b762-41b7-beb4-cf9366839bfb",
+            "isActive": true,
+            "picture": "http://placehold.it/32x32",
+            "age": 26,
+            "goals": 99,
+            "assists": 0,
+            "eyeColor": "blue",
+            "name": {
+                "first": "Bertha",
+                "last": "Herring"
+            },
+            "height": 165,
+            "weight": 76,
+            "team": "QUARX",
+            "stick": "right"
+        },
+        {
+            "_id": "5c2fdec7309461097f73dabe",
+            "guid": "1bd7b1b4-fbca-49e1-9735-c9e7946418a0",
+            "isActive": false,
+            "picture": "http://placehold.it/32x32",
+            "age": 31,
+            "goals": 64,
+            "assists": 30,
+            "eyeColor": "blue",
+            "name": {
+                "first": "Lara",
+                "last": "Ball"
+            },
+            "height": 205,
+            "weight": 130,
+            "team": "GENMY",
+            "stick": "left"
+        },
+        {
+            "_id": "5c2fdec7b42cd4fa38ab01ea",
+            "guid": "0e809146-fbb6-4db2-ae09-9cf25e7b312e",
+            "isActive": false,
+            "picture": "http://placehold.it/32x32",
+            "age": 26,
+            "goals": 24,
+            "assists": 50,
+            "eyeColor": "green",
+            "name": {
+                "first": "Mack",
+                "last": "Diaz"
+            },
+            "height": 175,
+            "weight": 95,
+            "team": "STRALUM",
+            "stick": "right"
+        },
+        {
+            "_id": "5c2fdec7e44fa683ca2d441f",
+            "guid": "9614dad4-9bcd-4d33-8fca-88cda0d3861e",
+            "isActive": false,
+            "picture": "http://placehold.it/32x32",
+            "age": 30,
+            "goals": 15,
+            "assists": 31,
+            "eyeColor": "blue",
+            "name": {
+                "first": "Finch",
+                "last": "Hutchinson"
+            },
+            "height": 178,
+            "weight": 123,
+            "team": "AQUACINE",
+            "stick": "left"
+        },
+        {
+            "_id": "5c2fdec729f29f1d4729282e",
+            "guid": "fbef3aa3-3cfc-4ecf-80b7-c2245560ac5e",
+            "isActive": false,
+            "picture": "http://placehold.it/32x32",
+            "age": 33,
+            "goals": 68,
+            "assists": 29,
+            "eyeColor": "brown",
+            "name": {
+                "first": "Silva",
+                "last": "Clark"
+            },
+            "height": 217,
+            "weight": 125,
+            "team": "ACCUPRINT",
+            "stick": "right"
+        },
+        {
+            "_id": "5c2fdec79230fdd70b379978",
+            "guid": "b0e1698a-79ca-4e74-9976-935c0e9278ff",
+            "isActive": false,
+            "picture": "http://placehold.it/32x32",
+            "age": 33,
+            "goals": 52,
+            "assists": 95,
+            "eyeColor": "green",
+            "name": {
+                "first": "Frye",
+                "last": "Roach"
+            },
+            "height": 212,
+            "weight": 96,
+            "team": "EWEVILLE",
+            "stick": "right"
+        },
+        {
+            "_id": "5c2fdec70c21c3648c222773",
+            "guid": "5f0c378a-7ad9-4ad7-bd5d-5d47ec3449b9",
+            "isActive": false,
+            "picture": "http://placehold.it/32x32",
+            "age": 35,
+            "goals": 0,
+            "assists": 86,
+            "eyeColor": "blue",
+            "name": {
+                "first": "Cecilia",
+                "last": "Mcdonald"
+            },
+            "height": 211,
+            "weight": 99,
+            "team": "TINGLES",
+            "stick": "right"
+        },
+        {
+            "_id": "5c2fdec7190687c480fc7e50",
+            "guid": "4d06d6ca-bb61-4074-96f7-78b4748db4f9",
+            "isActive": false,
+            "picture": "http://placehold.it/32x32",
+            "age": 30,
+            "goals": 80,
+            "assists": 90,
+            "eyeColor": "blue",
+            "name": {
+                "first": "Dawn",
+                "last": "Mendez"
+            },
+            "height": 203,
+            "weight": 82,
+            "team": "MAKINGWAY",
+            "stick": "left"
+        },
+        {
+            "_id": "5c2fdec7dbb4f9b29a548cfc",
+            "guid": "8a59056f-708b-4ccd-ab83-c23a646762f0",
+            "isActive": false,
+            "picture": "http://placehold.it/32x32",
+            "age": 31,
+            "goals": 8,
+            "assists": 88,
+            "eyeColor": "green",
+            "name": {
+                "first": "Teri",
+                "last": "Cabrera"
+            },
+            "height": 161,
+            "weight": 115,
+            "team": "ZILLA",
+            "stick": "right"
+        },
+        {
+            "_id": "5c2fdec729047e400dad3865",
+            "guid": "ac275284-1601-4eaa-aa6b-a51dec138b19",
+            "isActive": false,
+            "picture": "http://placehold.it/32x32",
+            "age": 33,
+            "goals": 95,
+            "assists": 92,
+            "eyeColor": "green",
+            "name": {
+                "first": "Bowen",
+                "last": "King"
+            },
+            "height": 191,
+            "weight": 122,
+            "team": "EXOPLODE",
+            "stick": "left"
+        },
+        {
+            "_id": "5c2fdec7f57137e7e06014e6",
+            "guid": "274b050f-7444-4954-8ba1-f688bb1628c8",
+            "isActive": true,
+            "picture": "http://placehold.it/32x32",
+            "age": 34,
+            "goals": 0,
+            "assists": 55,
+            "eyeColor": "blue",
+            "name": {
+                "first": "Carson",
+                "last": "Soto"
+            },
+            "height": 206,
+            "weight": 81,
+            "team": "NAVIR",
+            "stick": "right"
+        },
+        {
+            "_id": "5c2fdec715b656330d709a5b",
+            "guid": "9251fb39-cf55-4965-aef9-270a9638d9f8",
+            "isActive": false,
+            "picture": "http://placehold.it/32x32",
+            "age": 21,
+            "goals": 4,
+            "assists": 43,
+            "eyeColor": "green",
+            "name": {
+                "first": "Doris",
+                "last": "Bradford"
+            },
+            "height": 160,
+            "weight": 130,
+            "team": "QUIZKA",
+            "stick": "right"
+        },
+        {
+            "_id": "5c2fdec77851d0c5cd33e8de",
+            "guid": "d98da57b-01bd-4c65-a65a-562452d36d1f",
+            "isActive": false,
+            "picture": "http://placehold.it/32x32",
+            "age": 33,
+            "goals": 26,
+            "assists": 2,
+            "eyeColor": "blue",
+            "name": {
+                "first": "Lea",
+                "last": "Coleman"
+            },
+            "height": 199,
+            "weight": 81,
+            "team": "ACCUSAGE",
+            "stick": "right"
+        },
+        {
+            "_id": "5c2fdec74b5ca4e9593b4c93",
+            "guid": "fc4aee37-1c9f-4dcb-967e-0b955b225308",
+            "isActive": true,
+            "picture": "http://placehold.it/32x32",
+            "age": 20,
+            "goals": 40,
+            "assists": 72,
+            "eyeColor": "brown",
+            "name": {
+                "first": "Queen",
+                "last": "Day"
+            },
+            "height": 212,
+            "weight": 93,
+            "team": "ENTROFLEX",
+            "stick": "left"
+        },
+        {
+            "_id": "5c2fdec72baad1556b120479",
+            "guid": "aee94efe-a465-4a84-82cb-b8ed81dc0c14",
+            "isActive": false,
+            "picture": "http://placehold.it/32x32",
+            "age": 32,
+            "goals": 52,
+            "assists": 65,
+            "eyeColor": "brown",
+            "name": {
+                "first": "Kemp",
+                "last": "Marsh"
+            },
+            "height": 205,
+            "weight": 102,
+            "team": "ROCKLOGIC",
+            "stick": "right"
+        },
+        {
+            "_id": "5c2fdec7a88916db27123253",
+            "guid": "25ce1610-6bd1-46c8-816e-2eed54b19c0f",
+            "isActive": true,
+            "picture": "http://placehold.it/32x32",
+            "age": 28,
+            "goals": 0,
+            "assists": 85,
+            "eyeColor": "brown",
+            "name": {
+                "first": "Cruz",
+                "last": "Mcgee"
+            },
+            "height": 173,
+            "weight": 98,
+            "team": "EXOSPACE",
+            "stick": "left"
+        },
+        {
+            "_id": "5c2fdec7939d9d4ca0698b3e",
+            "guid": "aa316b3a-8296-4450-8197-2f4d1b9147e6",
+            "isActive": true,
+            "picture": "http://placehold.it/32x32",
+            "age": 33,
+            "goals": 50,
+            "assists": 79,
+            "eyeColor": "brown",
+            "name": {
+                "first": "Orr",
+                "last": "Gamble"
+            },
+            "height": 216,
+            "weight": 135,
+            "team": "NEWCUBE",
+            "stick": "left"
+        },
+        {
+            "_id": "5c2fdec7e7323c4787e09247",
+            "guid": "e33bcc3a-52cb-41db-91a8-3e3bd47b4887",
+            "isActive": false,
+            "picture": "http://placehold.it/32x32",
+            "age": 39,
+            "goals": 30,
+            "assists": 10,
+            "eyeColor": "blue",
+            "name": {
+                "first": "Justine",
+                "last": "Beach"
+            },
+            "height": 180,
+            "weight": 101,
+            "team": "TELLIFLY",
+            "stick": "left"
+        },
+        {
+            "_id": "5c2fdec7b6bb4e7d21d1a061",
+            "guid": "87aba293-389c-4a6e-8e83-65e4fd033fb3",
+            "isActive": true,
+            "picture": "http://placehold.it/32x32",
+            "age": 37,
+            "goals": 44,
+            "assists": 32,
+            "eyeColor": "blue",
+            "name": {
+                "first": "Watts",
+                "last": "Dunn"
+            },
+            "height": 179,
+            "weight": 106,
+            "team": "MAXIMIND",
+            "stick": "left"
+        },
+        {
+            "_id": "5c2fdec7454ee4b91958b605",
+            "guid": "3b804964-2bbc-4eba-8483-5606eb2ed374",
+            "isActive": true,
+            "picture": "http://placehold.it/32x32",
+            "age": 26,
+            "goals": 9,
+            "assists": 50,
+            "eyeColor": "green",
+            "name": {
+                "first": "Alexandra",
+                "last": "Velazquez"
+            },
+            "height": 208,
+            "weight": 119,
+            "team": "TRIPSCH",
+            "stick": "left"
+        },
+        {
+            "_id": "5c2fdec7406c42de1b4bc753",
+            "guid": "9fdf8250-441c-4846-95fa-a086d05d0196",
+            "isActive": false,
+            "picture": "http://placehold.it/32x32",
+            "age": 40,
+            "goals": 99,
+            "assists": 59,
+            "eyeColor": "blue",
+            "name": {
+                "first": "Corrine",
+                "last": "Heath"
+            },
+            "height": 162,
+            "weight": 86,
+            "team": "COMTOUR",
+            "stick": "right"
+        },
+        {
+            "_id": "5c2fdec7527506842fb030a1",
+            "guid": "a337a91f-7144-48e5-b1d8-c356bb20704a",
+            "isActive": true,
+            "picture": "http://placehold.it/32x32",
+            "age": 26,
+            "goals": 90,
+            "assists": 60,
+            "eyeColor": "green",
+            "name": {
+                "first": "Sophia",
+                "last": "Gibson"
+            },
+            "height": 212,
+            "weight": 117,
+            "team": "GEEKKO",
+            "stick": "left"
+        },
+        {
+            "_id": "5c2fdec7144e15b0f572f906",
+            "guid": "628d59bd-1916-4412-940a-56fd36543b1f",
+            "isActive": true,
+            "picture": "http://placehold.it/32x32",
+            "age": 20,
+            "goals": 64,
+            "assists": 18,
+            "eyeColor": "blue",
+            "name": {
+                "first": "Daphne",
+                "last": "Mccarthy"
+            },
+            "height": 204,
+            "weight": 104,
+            "team": "FARMEX",
+            "stick": "left"
+        },
+        {
+            "_id": "5c2fdec7244d0bc75e198901",
+            "guid": "377730cf-b65f-4fde-9cf0-d5cadc49888c",
+            "isActive": false,
+            "picture": "http://placehold.it/32x32",
+            "age": 22,
+            "goals": 20,
+            "assists": 77,
+            "eyeColor": "green",
+            "name": {
+                "first": "Perry",
+                "last": "Porter"
+            },
+            "height": 196,
+            "weight": 126,
+            "team": "TWIIST",
+            "stick": "right"
+        },
+        {
+            "_id": "5c2fdec712ccec3f30970b91",
+            "guid": "f92c0be7-53e7-4877-96f1-c390e7d8cd1e",
+            "isActive": false,
+            "picture": "http://placehold.it/32x32",
+            "age": 30,
+            "goals": 28,
+            "assists": 54,
+            "eyeColor": "brown",
+            "name": {
+                "first": "Reid",
+                "last": "Ingram"
+            },
+            "height": 183,
+            "weight": 96,
+            "team": "ARCHITAX",
+            "stick": "left"
+        },
+        {
+            "_id": "5c2fdec71a703ffdedca113e",
+            "guid": "018a1ba9-6a41-4afe-bdf2-efa372b17fad",
+            "isActive": true,
+            "picture": "http://placehold.it/32x32",
+            "age": 36,
+            "goals": 7,
+            "assists": 62,
+            "eyeColor": "brown",
+            "name": {
+                "first": "Lorie",
+                "last": "Zimmerman"
+            },
+            "height": 176,
+            "weight": 127,
+            "team": "LIQUICOM",
+            "stick": "right"
+        },
+        {
+            "_id": "5c2fdec7c3db8e2f9053d4c7",
+            "guid": "3acf3c8b-bef6-474a-ac07-ec42f060a56c",
+            "isActive": true,
+            "picture": "http://placehold.it/32x32",
+            "age": 23,
+            "goals": 10,
+            "assists": 64,
+            "eyeColor": "green",
+            "name": {
+                "first": "Roxie",
+                "last": "Martinez"
+            },
+            "height": 207,
+            "weight": 110,
+            "team": "XSPORTS",
+            "stick": "right"
+        },
+        {
+            "_id": "5c2fdec711f4183b4c88bd5e",
+            "guid": "3c2d3109-f296-4d08-b6c7-52cbc9311f3d",
+            "isActive": false,
+            "picture": "http://placehold.it/32x32",
+            "age": 22,
+            "goals": 88,
+            "assists": 23,
+            "eyeColor": "blue",
+            "name": {
+                "first": "Branch",
+                "last": "Chen"
+            },
+            "height": 162,
+            "weight": 87,
+            "team": "BEADZZA",
+            "stick": "left"
+        },
+        {
+            "_id": "5c2fdec74c0961e4f3607f86",
+            "guid": "03129752-538d-42bf-b362-5ea7fc98f5c4",
+            "isActive": true,
+            "picture": "http://placehold.it/32x32",
+            "age": 24,
+            "goals": 14,
+            "assists": 57,
+            "eyeColor": "blue",
+            "name": {
+                "first": "Davis",
+                "last": "Sutton"
+            },
+            "height": 182,
+            "weight": 87,
+            "team": "PROXSOFT",
+            "stick": "left"
+        },
+        {
+            "_id": "5c2fdec715123165c9a987d4",
+            "guid": "bf042711-3830-4d4d-86a7-68e20b9b01ea",
+            "isActive": true,
+            "picture": "http://placehold.it/32x32",
+            "age": 26,
+            "goals": 69,
+            "assists": 64,
+            "eyeColor": "green",
+            "name": {
+                "first": "Eugenia",
+                "last": "Hogan"
+            },
+            "height": 163,
+            "weight": 73,
+            "team": "PLUTORQUE",
+            "stick": "left"
+        },
+        {
+            "_id": "5c2fdec7327963ce7c80cf3f",
+            "guid": "9b347578-accf-4a4a-8f1b-3243b464e151",
+            "isActive": true,
+            "picture": "http://placehold.it/32x32",
+            "age": 21,
+            "goals": 12,
+            "assists": 31,
+            "eyeColor": "blue",
+            "name": {
+                "first": "Maria",
+                "last": "Wheeler"
+            },
+            "height": 184,
+            "weight": 106,
+            "team": "VENDBLEND",
+            "stick": "right"
+        },
+        {
+            "_id": "5c2fdec755dd4d860b317b8a",
+            "guid": "f7715ffc-59f9-49ef-9249-018ce2740684",
+            "isActive": true,
+            "picture": "http://placehold.it/32x32",
+            "age": 29,
+            "goals": 62,
+            "assists": 99,
+            "eyeColor": "blue",
+            "name": {
+                "first": "Hunter",
+                "last": "Parrish"
+            },
+            "height": 172,
+            "weight": 93,
+            "team": "TECHMANIA",
+            "stick": "right"
+        },
+        {
+            "_id": "5c2fdec78832aae5362bb2a9",
+            "guid": "344d84f1-ca80-49fb-b2f8-cbfa0e890cd8",
+            "isActive": false,
+            "picture": "http://placehold.it/32x32",
+            "age": 29,
+            "goals": 9,
+            "assists": 78,
+            "eyeColor": "blue",
+            "name": {
+                "first": "Byers",
+                "last": "Morrison"
+            },
+            "height": 179,
+            "weight": 111,
+            "team": "ORBOID",
+            "stick": "left"
+        },
+        {
+            "_id": "5c2fdec75bdb81402eaabe73",
+            "guid": "d2a0c847-3bd9-4d07-b61e-15807951cb05",
+            "isActive": true,
+            "picture": "http://placehold.it/32x32",
+            "age": 33,
+            "goals": 85,
+            "assists": 91,
+            "eyeColor": "blue",
+            "name": {
+                "first": "Henderson",
+                "last": "Gaines"
+            },
+            "height": 202,
+            "weight": 125,
+            "team": "MINGA",
+            "stick": "right"
+        },
+        {
+            "_id": "5c2fdec7a4c6f87568614aba",
+            "guid": "3903d4b9-77a2-409a-addb-f5025a825edb",
+            "isActive": true,
+            "picture": "http://placehold.it/32x32",
+            "age": 30,
+            "goals": 79,
+            "assists": 25,
+            "eyeColor": "brown",
+            "name": {
+                "first": "Melton",
+                "last": "Riggs"
+            },
+            "height": 219,
+            "weight": 104,
+            "team": "QNEKT",
+            "stick": "right"
+        },
+        {
+            "_id": "5c2fdec74265eb9da181d31c",
+            "guid": "9186ba8e-43d7-46fd-b343-ededc4dc7043",
+            "isActive": false,
+            "picture": "http://placehold.it/32x32",
+            "age": 21,
+            "goals": 61,
+            "assists": 12,
+            "eyeColor": "blue",
+            "name": {
+                "first": "Blanchard",
+                "last": "Rowe"
+            },
+            "height": 218,
+            "weight": 139,
+            "team": "ORGANICA",
+            "stick": "right"
+        },
+        {
+            "_id": "5c2fdec717ca959dfbc98f89",
+            "guid": "450f37ce-3c61-4543-b5f8-295bb725314a",
+            "isActive": false,
+            "picture": "http://placehold.it/32x32",
+            "age": 36,
+            "goals": 38,
+            "assists": 89,
+            "eyeColor": "blue",
+            "name": {
+                "first": "Marva",
+                "last": "Albert"
+            },
+            "height": 213,
+            "weight": 97,
+            "team": "ISOSURE",
+            "stick": "left"
+        },
+        {
+            "_id": "5c2fdec7ba8bea2f6b91d6ba",
+            "guid": "56a9d9a3-da8c-4f44-85ab-f1d3ba43417b",
+            "isActive": true,
+            "picture": "http://placehold.it/32x32",
+            "age": 30,
+            "goals": 69,
+            "assists": 97,
+            "eyeColor": "blue",
+            "name": {
+                "first": "Oliver",
+                "last": "Wynn"
+            },
+            "height": 177,
+            "weight": 94,
+            "team": "INCUBUS",
+            "stick": "right"
+        },
+        {
+            "_id": "5c2fdec732a7bdc452c4e9d1",
+            "guid": "3ca60067-e6cd-44ab-9fa0-b2099817281a",
+            "isActive": true,
+            "picture": "http://placehold.it/32x32",
+            "age": 36,
+            "goals": 46,
+            "assists": 99,
+            "eyeColor": "blue",
+            "name": {
+                "first": "Glenda",
+                "last": "Pruitt"
+            },
+            "height": 193,
+            "weight": 81,
+            "team": "CYTRAK",
+            "stick": "left"
+        },
+        {
+            "_id": "5c2fdec72ea9e03479e920e8",
+            "guid": "1856e5f5-50ee-45a7-ae62-34a1b4264cb2",
+            "isActive": false,
+            "picture": "http://placehold.it/32x32",
+            "age": 39,
+            "goals": 64,
+            "assists": 66,
+            "eyeColor": "green",
+            "name": {
+                "first": "Tracy",
+                "last": "Richmond"
+            },
+            "height": 202,
+            "weight": 129,
+            "team": "HONOTRON",
+            "stick": "right"
+        },
+        {
+            "_id": "5c2fdec7f623a0c426b62b22",
+            "guid": "1858263d-a03d-48cd-a585-6610daec88d6",
+            "isActive": true,
+            "picture": "http://placehold.it/32x32",
+            "age": 40,
+            "goals": 90,
+            "assists": 99,
+            "eyeColor": "blue",
+            "name": {
+                "first": "Collins",
+                "last": "Pace"
+            },
+            "height": 174,
+            "weight": 111,
+            "team": "MALATHION",
+            "stick": "left"
+        },
+        {
+            "_id": "5c2fdec7a459a2ba28f82c20",
+            "guid": "2e4b3bd7-a106-4cc2-b20d-3c1d879c225b",
+            "isActive": false,
+            "picture": "http://placehold.it/32x32",
+            "age": 20,
+            "goals": 3,
+            "assists": 97,
+            "eyeColor": "brown",
+            "name": {
+                "first": "Shields",
+                "last": "Crane"
+            },
+            "height": 206,
+            "weight": 119,
+            "team": "DATACATOR",
+            "stick": "right"
+        },
+        {
+            "_id": "5c2fdec7f572d1e69b919928",
+            "guid": "de6d476a-3f47-48bc-b4e7-7415dac576b8",
+            "isActive": false,
+            "picture": "http://placehold.it/32x32",
+            "age": 22,
+            "goals": 82,
+            "assists": 96,
+            "eyeColor": "blue",
+            "name": {
+                "first": "Dianne",
+                "last": "Holcomb"
+            },
+            "height": 160,
+            "weight": 104,
+            "team": "ZILENCIO",
+            "stick": "left"
+        },
+        {
+            "_id": "5c2fdec7f6e349913741c180",
+            "guid": "61b65a14-4e86-4c67-8105-9b58663afe65",
+            "isActive": false,
+            "picture": "http://placehold.it/32x32",
+            "age": 38,
+            "goals": 48,
+            "assists": 78,
+            "eyeColor": "green",
+            "name": {
+                "first": "Goff",
+                "last": "Nieves"
+            },
+            "height": 207,
+            "weight": 89,
+            "team": "UNDERTAP",
+            "stick": "left"
+        },
+        {
+            "_id": "5c2fdec7930073b9e83e3c68",
+            "guid": "e1cc08fe-2f44-430d-9ee0-0fdea7f3846e",
+            "isActive": false,
+            "picture": "http://placehold.it/32x32",
+            "age": 33,
+            "goals": 72,
+            "assists": 75,
+            "eyeColor": "brown",
+            "name": {
+                "first": "Hernandez",
+                "last": "Leblanc"
+            },
+            "height": 201,
+            "weight": 108,
+            "team": "TECHADE",
+            "stick": "left"
+        },
+        {
+            "_id": "5c2fdec75de6eca55cd2d557",
+            "guid": "bd98735c-3a90-43d8-b76f-623ed4a704da",
+            "isActive": true,
+            "picture": "http://placehold.it/32x32",
+            "age": 24,
+            "goals": 18,
+            "assists": 100,
+            "eyeColor": "green",
+            "name": {
+                "first": "Ramirez",
+                "last": "Kennedy"
+            },
+            "height": 190,
+            "weight": 103,
+            "team": "XYMONK",
+            "stick": "right"
+        },
+        {
+            "_id": "5c2fdec7be15f3859e8b81ba",
+            "guid": "8c1b8a16-f321-449a-8574-0abccf37b9d4",
+            "isActive": true,
+            "picture": "http://placehold.it/32x32",
+            "age": 27,
+            "goals": 61,
+            "assists": 19,
+            "eyeColor": "brown",
+            "name": {
+                "first": "Cora",
+                "last": "Browning"
+            },
+            "height": 212,
+            "weight": 128,
+            "team": "OVIUM",
+            "stick": "right"
+        },
+        {
+            "_id": "5c2fdec79378a0d2ef8416d2",
+            "guid": "e396476b-53f9-4d08-b498-049afb3d033d",
+            "isActive": false,
+            "picture": "http://placehold.it/32x32",
+            "age": 38,
+            "goals": 91,
+            "assists": 34,
+            "eyeColor": "brown",
+            "name": {
+                "first": "Lolita",
+                "last": "Webster"
+            },
+            "height": 216,
+            "weight": 113,
+            "team": "SONGLINES",
+            "stick": "right"
+        },
+        {
+            "_id": "5c2fdec7e39362e91633c5f7",
+            "guid": "47a88cda-f83c-40ac-8182-7f73c770271f",
+            "isActive": true,
+            "picture": "http://placehold.it/32x32",
+            "age": 20,
+            "goals": 89,
+            "assists": 98,
+            "eyeColor": "blue",
+            "name": {
+                "first": "Craft",
+                "last": "Richard"
+            },
+            "height": 169,
+            "weight": 130,
+            "team": "POSHOME",
+            "stick": "left"
+        },
+        {
+            "_id": "5c2fdec7618e701cae073c24",
+            "guid": "dc7c3cde-ef71-4f69-a067-711f00817704",
+            "isActive": true,
+            "picture": "http://placehold.it/32x32",
+            "age": 27,
+            "goals": 36,
+            "assists": 61,
+            "eyeColor": "brown",
+            "name": {
+                "first": "Nellie",
+                "last": "Clemons"
+            },
+            "height": 214,
+            "weight": 77,
+            "team": "PLEXIA",
+            "stick": "left"
+        },
+        {
+            "_id": "5c2fdec770c3b37ccdd0cede",
+            "guid": "ca47a1ff-0f3d-4ea0-90df-a7d69e3a2aa9",
+            "isActive": false,
+            "picture": "http://placehold.it/32x32",
+            "age": 31,
+            "goals": 16,
+            "assists": 16,
+            "eyeColor": "blue",
+            "name": {
+                "first": "Hicks",
+                "last": "Maldonado"
+            },
+            "height": 177,
+            "weight": 98,
+            "team": "NAXDIS",
+            "stick": "right"
+        },
+        {
+            "_id": "5c2fdec7edef185f3da5ffc1",
+            "guid": "7e21496f-52a3-4f6f-8464-69479acee2f9",
+            "isActive": false,
+            "picture": "http://placehold.it/32x32",
+            "age": 39,
+            "goals": 76,
+            "assists": 22,
+            "eyeColor": "green",
+            "name": {
+                "first": "Ester",
+                "last": "Castaneda"
+            },
+            "height": 165,
+            "weight": 126,
+            "team": "RAMJOB",
+            "stick": "left"
+        },
+        {
+            "_id": "5c2fdec7ca6034096596ec0e",
+            "guid": "d4db1f33-c301-47b3-b5c3-c454374b5893",
+            "isActive": false,
+            "picture": "http://placehold.it/32x32",
+            "age": 39,
+            "goals": 31,
+            "assists": 41,
+            "eyeColor": "blue",
+            "name": {
+                "first": "Boone",
+                "last": "Mueller"
+            },
+            "height": 168,
+            "weight": 109,
+            "team": "BALUBA",
+            "stick": "right"
+        },
+        {
+            "_id": "5c2fdec742aa8779d869fbc0",
+            "guid": "c02a2d26-ab1b-427a-9e16-11814c9f0c42",
+            "isActive": false,
+            "picture": "http://placehold.it/32x32",
+            "age": 24,
+            "goals": 15,
+            "assists": 40,
+            "eyeColor": "blue",
+            "name": {
+                "first": "Bray",
+                "last": "Rogers"
+            },
+            "height": 214,
+            "weight": 105,
+            "team": "ARTIQ",
+            "stick": "right"
+        },
+        {
+            "_id": "5c2fdec77c7fb613d1ea7fd9",
+            "guid": "f92abfae-e5bf-4b86-99a7-5a8c867bbbfb",
+            "isActive": false,
+            "picture": "http://placehold.it/32x32",
+            "age": 28,
+            "goals": 93,
+            "assists": 70,
+            "eyeColor": "brown",
+            "name": {
+                "first": "Rachelle",
+                "last": "Finley"
+            },
+            "height": 219,
+            "weight": 122,
+            "team": "DREAMIA",
+            "stick": "right"
+        },
+        {
+            "_id": "5c2fdec74d74ad7421f010e6",
+            "guid": "6593f72e-1b10-4e4d-879d-8c78b1198498",
+            "isActive": false,
+            "picture": "http://placehold.it/32x32",
+            "age": 22,
+            "goals": 22,
+            "assists": 58,
+            "eyeColor": "brown",
+            "name": {
+                "first": "Ingrid",
+                "last": "Gordon"
+            },
+            "height": 198,
+            "weight": 92,
+            "team": "KLUGGER",
+            "stick": "right"
+        },
+        {
+            "_id": "5c2fdec77b17a47a23df1cd4",
+            "guid": "e70669f4-1409-4807-bd8a-443d97e78274",
+            "isActive": true,
+            "picture": "http://placehold.it/32x32",
+            "age": 37,
+            "goals": 76,
+            "assists": 3,
+            "eyeColor": "blue",
+            "name": {
+                "first": "Rita",
+                "last": "Wise"
+            },
+            "height": 190,
+            "weight": 128,
+            "team": "URBANSHEE",
+            "stick": "left"
+        },
+        {
+            "_id": "5c2fdec70ae9ee842272fce3",
+            "guid": "23024f00-f7f8-4e6a-93ff-e29ed8e9bbd9",
+            "isActive": true,
+            "picture": "http://placehold.it/32x32",
+            "age": 36,
+            "goals": 60,
+            "assists": 70,
+            "eyeColor": "blue",
+            "name": {
+                "first": "Henry",
+                "last": "Chambers"
+            },
+            "height": 183,
+            "weight": 79,
+            "team": "ENORMO",
+            "stick": "left"
+        },
+        {
+            "_id": "5c2fdec7926990cd5d8bc7e8",
+            "guid": "51d487e6-0d88-415b-ab04-dbe77ac0e260",
+            "isActive": true,
+            "picture": "http://placehold.it/32x32",
+            "age": 30,
+            "goals": 73,
+            "assists": 56,
+            "eyeColor": "brown",
+            "name": {
+                "first": "Brandie",
+                "last": "Justice"
+            },
+            "height": 219,
+            "weight": 72,
+            "team": "VOIPA",
+            "stick": "left"
+        },
+        {
+            "_id": "5c2fdec7a97435bcadbfa346",
+            "guid": "ccdd36f6-02f7-4295-b324-e4ae1a2723cd",
+            "isActive": false,
+            "picture": "http://placehold.it/32x32",
+            "age": 27,
+            "goals": 46,
+            "assists": 26,
+            "eyeColor": "blue",
+            "name": {
+                "first": "Francis",
+                "last": "Conrad"
+            },
+            "height": 188,
+            "weight": 106,
+            "team": "AQUOAVO",
+            "stick": "left"
+        },
+        {
+            "_id": "5c2fdec7d23b0e52d47953d1",
+            "guid": "c9405583-bf3f-4469-8f8c-c4cb239665ab",
+            "isActive": false,
+            "picture": "http://placehold.it/32x32",
+            "age": 29,
+            "goals": 78,
+            "assists": 9,
+            "eyeColor": "brown",
+            "name": {
+                "first": "Fletcher",
+                "last": "Duffy"
+            },
+            "height": 182,
+            "weight": 112,
+            "team": "CORMORAN",
+            "stick": "right"
+        },
+        {
+            "_id": "5c2fdec7c6e57c52d18ff363",
+            "guid": "5a45a65c-9ed5-41df-8fad-b3713a94ea21",
+            "isActive": false,
+            "picture": "http://placehold.it/32x32",
+            "age": 29,
+            "goals": 75,
+            "assists": 1,
+            "eyeColor": "brown",
+            "name": {
+                "first": "Clarke",
+                "last": "Nunez"
+            },
+            "height": 217,
+            "weight": 101,
+            "team": "BOLAX",
+            "stick": "right"
+        },
+        {
+            "_id": "5c2fdec71bfe65e88de7050d",
+            "guid": "70c6fc13-217d-4257-84a8-b4588ac51ddf",
+            "isActive": true,
+            "picture": "http://placehold.it/32x32",
+            "age": 22,
+            "goals": 92,
+            "assists": 40,
+            "eyeColor": "brown",
+            "name": {
+                "first": "Bell",
+                "last": "Hopkins"
+            },
+            "height": 218,
+            "weight": 107,
+            "team": "GYNKO",
+            "stick": "left"
+        },
+        {
+            "_id": "5c2fdec778f1dc150239025b",
+            "guid": "a05dc131-6aff-464b-8c79-3f46da46a44a",
+            "isActive": true,
+            "picture": "http://placehold.it/32x32",
+            "age": 35,
+            "goals": 9,
+            "assists": 73,
+            "eyeColor": "green",
+            "name": {
+                "first": "Diaz",
+                "last": "Nielsen"
+            },
+            "height": 209,
+            "weight": 136,
+            "team": "OZEAN",
+            "stick": "right"
+        },
+        {
+            "_id": "5c2fdec724c95779cc06fc47",
+            "guid": "9479bf2b-59c6-4a2b-99a9-0918ba6ff4ab",
+            "isActive": false,
+            "picture": "http://placehold.it/32x32",
+            "age": 36,
+            "goals": 30,
+            "assists": 53,
+            "eyeColor": "blue",
+            "name": {
+                "first": "Moses",
+                "last": "Gentry"
+            },
+            "height": 185,
+            "weight": 79,
+            "team": "PRIMORDIA",
+            "stick": "left"
+        }
+    ],
+    "profile": { "name": "typicode" }
 }

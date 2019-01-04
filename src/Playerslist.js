@@ -47,7 +47,6 @@ class PlayersList extends Component {
 
   render() {
     const { datas, loading } = this.state;
-    console.log(this);
     if (loading) {
       return <div>Loading</div>;
     }
