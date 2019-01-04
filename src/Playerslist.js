@@ -30,23 +30,10 @@ class PlayersList extends Component {
 
   componentDidMount() {
     axios
-      .get('/stats/rest/skaters', {
-        params: {
-          isAggregate: false,
-          reportType: 'basic',
-          isGame: false,
-          reportName: 'skatersummary',
-          sort: [
-            { property: 'points', direction: 'DESC' },
-            { property: 'goals', direction: 'DESC' },
-            { property: 'assists', direction: 'DESC' }
-          ],
-          cayenneExp: 'gameTypeId=2 and seasonId>=20182019'
-        }
-      })
+      .get('playerslist')
       .then(response => {
         this.setState({
-          datas: response.data.data,
+          datas: response.data,
           loading: false
         });
       })

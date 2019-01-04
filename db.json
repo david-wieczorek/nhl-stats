@@ -1,0 +1,8 @@
+{
+  "posts": [{ "id": 1, "title": "json-server", "author": "typicode" }],
+  "playerslist": [
+    { "id": 1, "assists": 30, "goals": 1, "playerName": "David Wieczorek" },
+    { "id": 2, "assists": 40, "goals": 10, "playerName": "Yannick Wieczorek" }
+  ],
+  "profile": { "name": "typicode" }
+}
