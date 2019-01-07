@@ -5,7 +5,7 @@ class Players extends Component {
     const {players} = this.props;
     const playersLength = players.length;
     return (
-      <div>
+      <div className="players">
         <h2>Number of players: {playersLength}</h2>
         {players.map(data => {
           return (
