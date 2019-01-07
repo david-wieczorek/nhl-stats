@@ -1,12 +1,12 @@
 import React, {Component} from 'react';
 
-import Header from './Header';
+import Header from '../components/Header';
 import Home from './Home';
 import Playerslist from './Playerslist';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import {connect} from 'react-redux';
 
-import {simpleAction} from './actions/simpleAction';
+import {simpleAction} from '../actions/simpleAction';
 
 class App extends Component {
   simpleAction = event => {

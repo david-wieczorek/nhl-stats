@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import axios from 'axios';
-import Players from './Players';
+import Players from '../components/Players';
 
 class PlayersList extends Component {
   constructor(props) {
