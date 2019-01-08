@@ -6,7 +6,6 @@ import {withFirebase} from '../Firebase';
 
 const SignInPage = () => (
   <div>
-    <h1>SignIn</h1>
     <SignInForm />
     <SignUpLink />
   </div>

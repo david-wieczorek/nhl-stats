@@ -4,7 +4,6 @@ import {withFirebase} from '../Firebase';
 
 const SignUpPage = () => (
   <div>
-    <h1>SignUp</h1>
     <SignUpForm />
   </div>
 );
