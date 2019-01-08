@@ -8,10 +8,15 @@ import './styles/index.scss';
 import App from './layouts/App';
 import * as serviceWorker from './serviceWorker';
 
+import Firebase, {FirebaseContext} from './components/Firebase';
+
 ReactDOM.render(
-  <Provider store={configureStore()}>
-    <App />
-  </Provider>,
+  <FirebaseContext.Provider value={new Firebase()}>
+    <Provider store={configureStore()}>
+      <App />
+    </Provider>
+  </FirebaseContext.Provider>,
+
   document.getElementById('root'),
 );
 
